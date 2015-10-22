@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><% echo(title) %></title>
+</head>
+<body>
+
+今日は <% dval(nowtime,'Y/m/d H:i:s') %> です。<br /><br />
+
+私の年齢は<% echo(my_age) %>歳です。<br />
+<% if(my_age,>=,20) %>
+  成人しています。<br />
+<% else %>
+  まだ未成年です。<br />
+<% /if %>
+<br />
+
+<% echo(message|nl2br) %>
+
+</body>
+</html>
