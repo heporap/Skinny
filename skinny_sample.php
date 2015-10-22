@@ -19,5 +19,5 @@ class Main {
 }//class
 
 $m = new Main;
-$m.main();
+$m->main();
 

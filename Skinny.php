@@ -997,7 +997,7 @@ class Skinny {
 			_autoPrependFuncion();
 		}
 */
-		return $html . $this->_skBenchMarkTime();
+		echo $html . $this->_skBenchMarkTime();
 	}
 
 
